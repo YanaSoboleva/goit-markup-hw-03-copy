@@ -1,9 +1,3 @@
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
-
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -49,6 +43,7 @@ a {
 .nav-conteiner {
     display: flex;
     padding: 24px 0;
+   
 }
 
 .navigation {
@@ -86,6 +81,10 @@ a {
     gap: 40px;
 }
 
+.nav-item {
+    padding: 24px 0;
+}
+
 .nav-list .nav-item-link {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -104,6 +103,7 @@ a {
 .contacts {
     font-style: normal;
     margin-left: 332px;
+    margin-top: 24px;
 }
 
 .contacts-list {
