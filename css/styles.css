@@ -41,8 +41,7 @@ a {
 
 .nav-conteiner {
     display: flex;
-    padding: 24px 0;
-   
+    align-items: center;
 }
 
 .navigation {
@@ -63,7 +62,6 @@ a {
     text-transform: uppercase;
     color: #4d5ae5;
     margin-right: 76px;
-    padding: 24px 0;
 }
 
 .accent-header {
@@ -79,10 +77,6 @@ a {
 .nav-list {
     display: flex;
     gap: 40px;
-}
-
-.nav-item {
-    padding: 24px 0 24px;
 }
 
 .nav-list .nav-item-link {
@@ -109,6 +103,7 @@ a {
 .contacts-list {
     display: flex;
     gap: 40px;
+    padding-bottom: 24px;
 }
 
 .contacts-list .contacts-item-link {
