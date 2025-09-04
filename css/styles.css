@@ -51,7 +51,7 @@ a {
 }
 
 .page-header {
-    border-bottom: 1px solid #e7e9fc
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .nav-logo {
@@ -63,6 +63,7 @@ a {
     text-transform: uppercase;
     color: #4d5ae5;
     margin-right: 76px;
+    padding: 24px 0;
 }
 
 .accent-header {
