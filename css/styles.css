@@ -44,6 +44,10 @@ a {
     align-items: center;
 }
 
+.nav-item {
+    padding: 24px 0;
+}
+
 .navigation {
     display: flex;
     align-items: center;
