@@ -93,10 +93,13 @@ a {
     background-color: #ffffff;
 }
 
+.nav-item-link {
+     padding: 24px 0;
+}
+
 .nav-item-link:hover,
 .nav-item-link:focus {
     color: #404bbf;
-    padding: 24px 0;
 }
 
 .contacts {
